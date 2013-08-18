@@ -1,0 +1,103 @@
+/*
+CssName: style.css
+Description: yahei:\5fae\8f6f\96c5\9ed1, songti:\5b8b\4f53, heiti:\9ed1\4f53.
+Version: 20120422
+Author: shixujun
+*/
+
+/* =Reset
+----------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, section, summary,
+time, mark, audio, video {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+body{font:12px "\5b8b\4f53", Arial, sans-serif;line-height:1.5;}
+ol, ul{list-style: none;}
+table{border-collapse:collapse;border-spacing:0;}
+a{text-decoration:none;}
+
+/* =Structure
+----------------------------------------------- */
+.container{width:1000px;margin:0 auto;}
+.header{}
+.content{}
+.col_left{float: left;width: 300px;background: #e0e9ce;}
+.col_right{float: left;width: 690px;padding:0 5px;}
+.footer{background: #f0eeef}
+
+
+/* =Global
+----------------------------------------------- */
+.dJ{clear:both;height:0;overflow:hidden;}
+.ir{overflow:hidden;text-indent:-9999px;}
+
+
+
+
+/* Default form color */
+/* input[type="text"],
+textarea {
+	background: #f9f9f9;
+	border: 1px solid #ccc;
+	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+	-moz-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+	-webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+	padding: 2px;
+} */
+
+/* =Sprites
+----------------------------------------------- */
+
+
+
+
+/* =Header
+----------------------------------------------- */
+.logo{background:url(../img/head_logo.jpg) no-repeat;width:1000px;height:252px; }
+.nav{height: 42px;background: #940000;padding-left: 50px;}
+.nav li{float: left;}
+.nav a{display: block;height: 42px;line-height: 42px;font-size: 14px;font-weight: bold;color: #fff;padding: 0 20px;}
+.nav a:hover{background: url(../img/nav_bg.jpg) repeat-x;}
+
+/* =Col Left
+----------------------------------------------- */
+.intro_dao{width: 288px;height: 523px;background: url(../img/intro_dao.png) no-repeat;margin: 10px auto 10px;}
+.imglink_wfg{width: 287px;height: 70px;background: url(../img/imglink_wfg.png) no-repeat;margin: 0 auto}
+.imglink_qtfg{width: 287px;height: 186px;background: url(../img/imglink_qtfg.png) no-repeat;margin:0 auto}
+.contact{width: 287px;height: 200px;background: url(../img/contact.png) no-repeat;margin:5px auto 10px;}
+.simglink{width: 287px;height: 427px;background: url(../img/simglink.jpg) no-repeat;margin:0 auto 50px;}
+
+
+/* =Colmun Right
+----------------------------------------------- */
+.b{margin-top: 11px;}
+.b_ti{height: 31px;background: url(../img/bord_title_bg.jpg) repeat-x;line-height: 31px;}
+.b_ti_i{display:block;height: 31px;width: 10px;margin: 0 10px;float: left;display: inline;background: url(../img/bord_title_i.jpg) no-repeat;z-index: 20}
+.b_ti_m{float: right;margin-right: 10px;display: inline;}
+.b_ti_a{color:#fff;}
+.b_ti_h3{color:#fff;float: left;font-size: 14px;font-weight: bold;}
+.b_main{border:1px solid #bbb;}
+
+.c_r_1{width: 683px;height: 287px;background: url(../img/c_r_1.jpg) no-repeat;}
+.c_r_2{width: 683px;height: 314px;background: url(../img/c_r_2.jpg) no-repeat;}
+.c_r_3{width: 683px;height: 276px;background: url(../img/c_r_3.jpg) no-repeat;}
+.c_r_4{width: 683px;height: 178px;background: url(../img/c_r_4.jpg) no-repeat;}
+.c_r_5{width: 330px;height: 218px;background: url(../img/c_r_5.jpg) no-repeat;}
+.c_r_6{width: 330px;height: 218px;background: url(../img/c_r_6.jpg) no-repeat;}
+
+
+/* =Footer
+----------------------------------------------- */
+.foot_nav{margin-top:10px;background: #5b5b5b;height: 37px;line-height: 37px;padding-left: 50px;}
+.foot_nav li{float: left;display: inline;margin: 0 20px;}
+.foot_nav a{color: #fff;font-weight: bold;}
+
+.foot_img{width: 280px;height: 90px;background: url(../img/foot_img.png) no-repeat;margin: 20px auto 10px;}
